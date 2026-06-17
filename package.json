@@ -1,13 +1,10 @@
 {
-  "name": "psx-live-ai-trade-assistant",
+  "name": "psx-simple-live-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Free-hostable PSX live/delayed dashboard with serverless proxy. Real data only; no fake prices.",
+  "type": "module",
+  "description": "Simple Vercel-hosted PSX live/delayed market-watch dashboard with no fake data.",
   "scripts": {
-    "start": "vercel dev",
-    "check": "node --check api/health.js && node --check api/market.js && node --check api/quote.js && node --check api/history.js && node --check api/_lib/psx.js"
-  },
-  "engines": {
-    "node": ">=18"
+    "start": "vercel dev"
   }
 }
